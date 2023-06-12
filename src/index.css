@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #e5e5e5;
+  padding: 20px 0px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.form-group div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.form-group div label {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 12px;
+  text-align: start;
+
+}
+
+.form-group div input {
+  padding: 8px 0px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+form button {
+  max-width: 150px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 0px;
+}
+.simulation-wrapper .recharts-responsive-container{
+  margin: 0 auto;
+}
